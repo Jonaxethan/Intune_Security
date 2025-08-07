@@ -1,2 +1,4 @@
 # Intune_Security
-Contains Securitypolicies managed by Intune
+This repository contains scripts from my work experience as an IT consultant.
+
+
