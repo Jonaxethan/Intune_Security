@@ -6,7 +6,7 @@
 $DefenderStatus = Get-MpComputerStatus
 $EXITCODE = 0
 Switch($DefenderStatus.AMRunningMode){
-    "Active" {
+    "Normal" {
         Write-Host "Microsoft Defender Antivirus is running in Active Mode." -ForegroundColor Green
     }
     "EDR Block Mode" {
