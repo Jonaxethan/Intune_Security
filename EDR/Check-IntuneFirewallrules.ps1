@@ -13,5 +13,5 @@ if ($MDMFirewallRules) {
 } else {
     Write-Host "No firewall rules found in the MDM policy store." -ForegroundColor Yellow
     exit 1
-}‚‚
+}
 return 0
